@@ -51,7 +51,7 @@ a{
     color: white; 
 }
 
-.menu-toggle{
+/* .menu-toggle{
     width: 5rem;
     height: 5rem;
     position: absolute;
@@ -73,56 +73,7 @@ a{
 .fa-times{
     display: none;
     cursor: pointer;
-}
-
-nav{
-    /* position: relative; */
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.075); */
-    z-index: 690;
-    width: 100vw;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: #1b2a49;
-}
-
-.logo{
-    width: 5rem;
-    box-sizing: content-box;
-    padding-left: 1rem;
-}
-
-.logo img{
-    display: block;
-    width: 200%;
-}
-
-nav ul{
-    height: 8rem;
-    list-style: none;
-    display: flex;
-    font-size: 1.6rem;
-}
-
-nav ul li{
-    padding: 0 3rem;
-    line-height: 8rem;
-    transition: background-color .5s;
-}
-
-nav ul li:hover{
-    background-color: rgba(0, 0, 0, 0.075);
-}
-
-.nav-right ul li{
-    border-left: 1px solid rgba(0, 0, 0, 0.075);
-}
-
-.nav-right i{
-    margin-right: 5px;
-}
+} */
 
 .main{
     position: absolute;
@@ -669,10 +620,6 @@ footer .footer-development ul li a{
 
     .btnFill{
         padding: 1rem;
-    }
-
-    nav{
-        display: none;
     }
 
     /* Mobile Nav */
