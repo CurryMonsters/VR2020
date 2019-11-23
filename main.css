@@ -82,20 +82,22 @@ a{
     left: 0;
     right: 0;
     bottom: 0;
+    background-image: url(images/BetterGradient.png);
 }
 
 .tone-1{
     /* background-color: #f7f7f6; */
-    background-color: rgba(0, 0, 0, 0.8);
-    background-color: #ffb961;
+    /* background-color: rgba(0, 0, 0, 0.8);
+    background-color: #ffb961; */
     height: 100vh;
     flex: 1;
 }
 
 .tone-2{
-    background-color: #ffb961;
+    /* background-color: #ffb961;
     background-color: black;
     background-color: #ff8c94;
+    background-color: #ffb961; */
     height: 100vh;
     flex: 1;
     position: relative;
@@ -612,6 +614,8 @@ footer .footer-development ul li a{
 
     .tone-2 img{
         left: -2.5rem;
+        /* left: -30rem; */
+        width: 100%;
     }
 
     .hero-info p{
@@ -621,7 +625,6 @@ footer .footer-development ul li a{
     .btnFill{
         padding: 1rem;
     }
-
     /* Mobile Nav */
     /* nav{
         display: flex;

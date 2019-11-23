@@ -24,8 +24,7 @@ nav{
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.075); */
     z-index: 690;
     width: 100vw;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: #1b2a49;
+    display: none;
 }
 
 .logo{
@@ -258,8 +257,12 @@ nav ul li:hover{
     width: 100%;
   }
 
+  .hero-container nav ul li a{
+    height: 100%;
+    padding: 1rem auto;
+  }
+
   .hero-container nav{
-    padding: rem 0 0 0;
     height: 20vh;
   }
 
@@ -278,6 +281,7 @@ nav ul li:hover{
     
     .menu-wrap{
         display: block;
+        z-index: 1000;
     }
 
     .menu-wrap .hamburger{
