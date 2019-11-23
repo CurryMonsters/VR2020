@@ -68,7 +68,6 @@ nav ul li:hover{
     top: 0;
     left: 0;
     z-index: 6;
-    display: none;
 }
 
 .menu-wrap .toggler {
