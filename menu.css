@@ -89,12 +89,17 @@ nav ul li:hover{
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: orangered;
+  background: black;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   margin: 10px 10px;
+}
+
+.hero-container .menu-wrap .hamburger{
+    width: 30px;
+    height: 30px;
 }
 
 .menu-wrap .hamburger > div {
@@ -172,7 +177,11 @@ nav ul li:hover{
 }
 
 .menu-wrap .menu > div {
-  background: #ffb961;
+  background-image: url(images/BetterGradient.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   border-radius: 50%;
   width: 350vw;
   height: 350vw;
@@ -195,7 +204,7 @@ nav ul li:hover{
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 3rem;
   padding: 1rem;
 }
 
@@ -284,21 +293,17 @@ nav ul li:hover{
     }
 
     .menu-wrap .hamburger{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     .hero-container .menu-wrap .hamburger{
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
     }
 
     .menu-wrap .menu > div > div > ul > li {
-        font-size: 2.3rem;
+        font-size: 1.5rem;
         padding: 1rem;
     }
-}
-
-@media (max-width: 400px){
-
 }
