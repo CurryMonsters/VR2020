@@ -60,6 +60,11 @@ body{
     right: 0;
     bottom: 0;
     border-bottom: 3px solid white;
+
+    background-image: url(images/BetterRain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .tone-1{
@@ -98,11 +103,13 @@ body{
     font-weight: 100;
     margin-bottom: 1rem;
     text-align: center;
+    color: black;
 }
 
 .hero-info p{
     font-size: 2rem;
     margin-bottom: 4rem;
+    color: black;
 }
 
 .btnFill{
