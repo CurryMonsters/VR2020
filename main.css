@@ -11,6 +11,7 @@ html{
     font-size: 10px;
     color: #333;
     overflow-x: hidden;
+    font-weight: 0;
 }
 
 .container {
@@ -37,7 +38,7 @@ h3{
 p{
     font-size: 16px;
     color: white; 
-}
+} 
 
 header{
     height: 100vh;
@@ -45,35 +46,11 @@ header{
     position: relative;
 }
 
-a{
-    text-decoration: none;
-    /* color: #333; */
-    color: white; 
+body{
+    background-image: url(images/BetterGradient.png);
+    background-size: contain;
+    background-position: center right;
 }
-
-/* .menu-toggle{
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    outline: none;
-    display: none;
-    z-index: 420;
-}
-
-.menu-toggle i,
-.fa-times{
-    font-size: 3.5rem;
-}
-
-.fa-times{
-    display: none;
-    cursor: pointer;
-} */
 
 .main{
     position: absolute;
@@ -82,24 +59,15 @@ a{
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(images/BetterGradient.png);
-    background-size: cover;
-    background-position: center right;
+    border-bottom: 3px solid white;
 }
 
 .tone-1{
-    /* background-color: #f7f7f6; */
-    /* background-color: rgba(0, 0, 0, 0.8);
-    background-color: #ffb961; */
     height: 100vh;
     flex: 1;
 }
 
 .tone-2{
-    /* background-color: #ffb961;
-    background-color: black;
-    background-color: #ff8c94;
-    background-color: #ffb961; */
     height: 100vh;
     flex: 1;
     position: relative;
@@ -151,11 +119,7 @@ a{
 }
 
 .hero-buy-btn{
-    /* background-color: #a4a4a4; */
     background-color: #141110;
-    /* background-image: url(images/ExplosionRight.png);
-    background-size: 100%;
-    background-position: center; */
 }
 
 .hero-buy-btn:hover{
@@ -165,16 +129,9 @@ a{
 
 #showtime{
     width: 100%;
-    /* height: 100vh;
-    /* background: url("https://melmagazine.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-30-at-12.03.57-PM.png") center center no-repeat;
-    background-size: cover; */
-    /* background-color: #F15A24; */
-    /* background-color: #f3826f; */
     height: 100%;
-    background-image: url(images/ShowtimeGradient_1.png);
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-position: center right;
+    border-bottom: 3px solid white;
+    padding-bottom: 3rem;
 }
 
 #showtime .leftBox{
@@ -192,16 +149,14 @@ a{
 
 #showtime .leftBox .content{
     color: #fff;
-    /* background: rgba(0, 0, 0, 0.7); */
     padding: 40px;
     transition: 0.5s ease;
-    /* height: 90%; */
 
     padding: 20px;
 }
 
 #showtime .leftBox .content:hover{
-    background: black;
+    background: #ef629f;
 }
 
 #showtime .leftBox .content h1{
@@ -209,7 +164,6 @@ a{
     padding: 0;
     font-size: 3rem;
     float: center;
-
     font-size: 30px;
 }
 
@@ -223,7 +177,6 @@ a{
     position: relative;
     width: 50%;
     height: 100%;
-    /* background: rgba(0, 0, 0, 0.5); */
     float: right;
     box-sizing: border-box;
 
@@ -236,7 +189,6 @@ a{
 
 #showtime .events ul{
     position: absolute;
-    /* display: flex; Look at later */
     display: flex;
     flex-wrap: wrap;
     top: 50%;
@@ -257,7 +209,6 @@ a{
     list-style: none;
     background-color: #fff;
     box-sizing: border-box;
-    /* width: 100%; */
     height: 200px;
     margin: 20px 15px 0;
 
@@ -268,7 +219,7 @@ a{
     position: relative;
     padding: 20px;
     /* background: rgba(0, 0, 0, 0.8); */
-    background: #ffb961;
+    background: #ef629f;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
@@ -282,9 +233,9 @@ a{
     float: left;
 }
 
-#showtime .events ul li:hover .date{
+/* #showtime .events ul li:hover .date{
     background-color: #ffb961;
-}
+} */
 
 #showtime .events ul li .date h2{
     float: center;
@@ -356,9 +307,9 @@ a{
 }
 
 #showtime .events ul li .details a:hover{
-    background-color: #ffb961;
+    background-color: #ef629f;
     color: #fff;
-    border-color: #ffb961;
+    border-color: #ef629f;
 }
 
 /* Vlog */
@@ -381,9 +332,7 @@ a{
     /* background-color: #fce38a; */
     width: 100%;
     height: 100%;
-    background-image: url(images/BetterGradient.png);
-    background-size: cover;
-    background-position: center right;
+    border-bottom: 3px solid white;
 }
 
 #vlog .flex{
@@ -471,9 +420,6 @@ a{
 #sponsors{
     /* background: #c05c7e; */
     /* background-color: #f3826f; */
-    background-image: url(images/BetterGradient.png);
-    background-size: cover;
-    background-position: center right;
 }
 
 #sponsors .flex{
@@ -492,9 +438,8 @@ a{
     width: 300px;
 }
 
-#sponsors .container h2{
+#sponsors .container h1{
     text-align: center;
-    font-size: 3rem;
     color: white;
     padding-top: 2rem;
 }
@@ -532,7 +477,6 @@ footer .footer-social-icons ul li{
 }
 
 footer .footer-social-icons ul li a{
-    /* color: #272727; */
     color: white;
     font-size: 25px;
     display: block;
@@ -560,7 +504,8 @@ footer .footer-development ul li{
     margin-right: 0;
     padding: 0;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 footer .full{
@@ -582,7 +527,6 @@ footer small {
 
 footer .footer-development ul li a{
     text-transform: underline;
-    /* color: rgb(207, 207, 207); */
 }
 
 /* Responsive */
@@ -633,7 +577,6 @@ footer .footer-development ul li a{
 
     .tone-2 img{
         left: -2.5rem;
-        /* left: -30rem; */
         width: 100%;
     }
 
@@ -642,84 +585,8 @@ footer .footer-development ul li a{
     }
 
     .btnFill{
-        padding: 1rem;
+        padding: 2rem;
     }
-
-    .main{
-        background-size: contain;
-    }
-
-    #showtime{
-        background-size: contain;
-    }
-
-    #vlog{
-        background-size: contain;
-    }
-    /* Mobile Nav */
-    /* nav{
-        display: flex;
-        border-bottom: none;
-        flex-direction: column;
-        width: 25rem;
-        height: 100vh;
-        background-color: #f7f7f6;
-        justify-content: space-evenly;
-        transform: translateX(-25rem);
-        transition: transform .5s;
-    } */
-
-    /* nav ul{
-        height: initial;
-        display: block;
-        font-size: 2rem;
-        text-align: center;
-    } */
-
-    /* nav ul li{
-        padding: 0;
-        line-height: initial;
-        margin-bottom: 2rem;
-    } */
-
-    /* .logo{
-        padding-right: 3rem;
-        padding: 0;
-    } */
-
-    /* .nav-right ul li{
-        border: none;
-    }
-
-    .menu-toggle{
-        display: flex;
-    }
-
-    .fa-times{
-        display: block;
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-    }
-
-    .active{
-        transform: translateX(0)
-    }
-
-    .overlay{
-        position: absolute;
-        width: 0;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.8);
-        z-index: 680;
-        opacity: 0;
-        transition: opacity 0.5s;
-    }
-
-    .overlay.menu-open{
-        width: 100%;
-        opacity: 1;
-    } */
 }
 
 @media (max-width: 400px){
