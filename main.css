@@ -51,7 +51,6 @@ body{
     background-image: url(images/BetterGradient.png);
     background-size: contain;
     background-position: center right;
-    overflow: hidden;
 }
 
 .main{
