@@ -1,0 +1,118 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-wrapper .menu{
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50% 0 0 50%;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+    cursor: pointer;
+}
+
+.nav-wrapper .hamburger{
+    position: absolute;
+    top: 135px;
+    left: 50px;
+    width: 30px;
+    height: 2px;
+    background-image: url(images/BetterGradient.png);
+    background-size: cover;
+    display: block;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.nav-wrapper .hamburger:after, .nav-wrapper .hamburger:before {
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(images/BetterGradient.png);
+    background-size: cover;
+  }
+
+.nav-wrapper .hamburger:before{ 
+    top: -10px; }
+
+.nav-wrapper .hamburger:after {
+    bottom: -10px; }
+
+.nav-wrapper .toggle {
+    display: none;
+}
+
+.nav-wrapper .toggle:checked + .menu {
+    box-shadow: 0 0 0 100vw black, 0 0 0 100vh black;
+    border-radius: 0;
+}
+
+.nav-wrapper .toggle:checked + .menu .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+}
+
+.nav-wrapper .toggle:checked + .menu .hamburger:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 0;
+    
+}
+
+.nav-wrapper .toggle:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+  
+}
+
+.nav-wrapper .toggle:checked + .menu + ul { opacity: 1; }
+
+.nav-wrapper ul {
+  /* z-index: 200; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+}
+
+.nav-wrapper a {
+  margin-bottom: 1em;
+  display: block;
+  color: #f38630;
+  text-decoration: none;
+}
