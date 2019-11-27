@@ -177,3 +177,9 @@ html{
 .menu-wrapper .toggler:checked ~ .menu{
     visibility: visible;
 }
+
+/*------------------toggled Sectioin------------------ */
+
+html.full-screen{
+    overflow-y: hidden;
+}

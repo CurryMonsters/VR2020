@@ -507,7 +507,7 @@ footer .footer-development ul li{
     margin-right: 0;
     padding: 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 16px;
     color: white;
 }
 
@@ -517,8 +517,8 @@ footer .full{
 }
 
 footer small {
-    margin-top: 3rem;
-    font-size: 1rem;
+    /* margin-top: 3rem; */
+    font-size: 16px;
     display: block;
     text-align: center;
 }
