@@ -243,10 +243,6 @@ body{
     float: left;
 }
 
-/* #showtime .events ul li:hover .date{
-    background-color: #ffb961;
-} */
-
 #showtime .events ul li .date h2{
     float: center;
     position: absolute;
@@ -397,33 +393,6 @@ body{
     padding-top: 3rem;
     text-align: center;
 }
-
-/* @media(max-width: 991px){
-
-    #vlog .card iframe{
-        height: 300px;
-        margin-top: 1rem;
-        width: 90%;
-    }
-
-    #vlog .card{
-        width: 40%;
-        height: 10%;
-    }
-}
-
-@media(max-width: 761px){
-
-    #vlog .card iframe{
-        height: 10%;
-        margin-top: 1rem;
-        width: 90%;
-    }
-
-    #vlog .card{
-        width: 100%;
-    }
-} */
 
 #sponsors .flex{
     flex-wrap: wrap;
