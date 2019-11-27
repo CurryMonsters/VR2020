@@ -364,7 +364,7 @@ body{
 }
 
 #vlog .card:hover{
-    box-shadow: 5px 10px salmon;
+    box-shadow: 5px 10px #ef629f;
 }
 
 #vlog .card iframe{
@@ -476,7 +476,7 @@ footer .footer-social-icons ul li{
     height: 50px;
     margin: 0px 10px;
     border-radius: 100%;
-    background: #c05c7e;
+    background: #ef629f;
 }
 
 footer .footer-social-icons ul li a{
