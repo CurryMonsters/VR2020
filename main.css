@@ -44,7 +44,6 @@ header{
     height: 100vh;
     width: 100%;
     position: relative;
-    /* z-index: 2000; */
 }
 
 body{
@@ -96,7 +95,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .hero-info h1{
@@ -122,6 +121,7 @@ body{
     font-size: 2rem;
     font-weight: 300;
     transition: all .5s;
+    border-radius: 1000px;
 }
 
 .hero-btns{
@@ -339,6 +339,7 @@ body{
     width: 100%;
     height: 100%;
     border-bottom: 3px solid white;
+    z-index: 1000;
 }
 
 #vlog .flex{
@@ -423,11 +424,6 @@ body{
         width: 100%;
     }
 } */
-
-#sponsors{
-    /* background: #c05c7e; */
-    /* background-color: #f3826f; */
-}
 
 #sponsors .flex{
     flex-wrap: wrap;

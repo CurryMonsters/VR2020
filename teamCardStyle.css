@@ -22,7 +22,7 @@ body{
     padding: 0 20px;
 }
 
-.flex {
+.flex{
     display: flex;
     justify-content: center;
 }
