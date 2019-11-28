@@ -183,3 +183,23 @@ html{
 html.full-screen{
     overflow-y: hidden;
 }
+
+/*------------------media section------------------ */
+
+@media(max-width: 600px){
+    .team-header .menu-wrapper .hamburger{
+        width: 20px;
+        height: 20px;
+        margin: 10px 10px;
+    }
+
+    .team-header .menu-wrapper .circle-corner{
+        width: 70px;
+        height: 70px;
+    }
+
+    .team-header .menu-wrapper .menu .fluid-circle {
+        width: 70px;
+        height: 70px;
+    }
+}
