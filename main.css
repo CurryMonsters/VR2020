@@ -291,16 +291,16 @@ body{
     margin: 0;
     padding: 0;
     font-size: 22px;
-    font-weight: 0;
-
+    font-weight: 401;
 }
 
-#showtime .events ul li .details P{
+#showtime .events ul li .details p{
     position: relative;
     margin: 10PX 0 0;
     padding: 0;
     font-size: 1.8rem;
     color: black;
+    font-weight: 300;
 }
 
 #showtime .events ul li .details a{
@@ -314,6 +314,7 @@ body{
     font-size: 2rem;
     transition: 0.5s ease;
     color: black;
+    font-weight: 301;
 
     padding: 5px 10px;
 }
@@ -461,6 +462,8 @@ body{
 #vlog .card p {
     padding-left: 1rem;
     color: black;
+    font-weight: 301;
+    letter-spacing: 1px;
 }
 
 #vlog .card h3{
@@ -503,9 +506,10 @@ body{
 
 /* footer */
 footer {
+    border-top: 2px solid white;
     /* background: #333; */
-    background: #2d3561;
-    padding: 1rem 0;
+    background: #272727;
+    padding: 5rem 0 0 0;
 }
 
 footer .flex {
@@ -532,6 +536,8 @@ footer .footer-social-icons ul li{
     margin: 0px 10px;
     border-radius: 50%;
     background: #ef629f;
+    font-weight: 300;
+    border: 1px solid white
 }
 
 footer .footer-social-icons ul li a{
@@ -551,12 +557,14 @@ footer .footer-development{
     margin: auto;
     margin-top: 2rem;
     color: white;
+    max-width: 500px;
 }
 
 footer .footer-development ul{
     margin-right: 0;
     padding: 0;
     text-align: center;
+    list-style: none;
 }
 
 footer .footer-development ul li{
@@ -565,10 +573,23 @@ footer .footer-development ul li{
     text-align: center;
     font-size: 16px;
     color: white;
+    font-weight: 1;
+    letter-spacing: 2px;
+    margin: 30px;
+
+    background-color: #ef629f;
+    padding: 1.2rem;
+    border-radius: 1000px;
 }
 
+/* footer .footer-development ul li span{
+    background-color: #ef629f;
+    padding: 1.4rem;
+    border-radius: 1000px;
+} */
+
 footer .full{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid white;
 }
 
@@ -577,6 +598,10 @@ footer small {
     font-size: 16px;
     display: block;
     text-align: center;
+    font-weight: 1;
+    letter-spacing: 2px;
+    background-color: #ef629f;
+    padding: 3rem;
 }
 
 footer small {
