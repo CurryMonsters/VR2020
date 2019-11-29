@@ -99,7 +99,7 @@ body{
 }
 
 .hero-info h1{
-    font-size: 5rem;
+    font-size: 7rem;
     letter-spacing: 3px;
     margin-right: -3px;
     font-weight: 100;
@@ -109,7 +109,7 @@ body{
 }
 
 .hero-info p{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 4rem;
     color: black;
 }
@@ -605,13 +605,13 @@ footer .footer-development ul li a{
     }
 
     .hero-info h1{
-        font-size: 3.5rem;
+        font-size: 6rem;
         margin-bottom: 2rem;
     }
 
     .hero-info p{
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
+        font-size: 3rem;
+        margin-bottom: 2.5rem;
     }
 
     .btnFill{
@@ -631,6 +631,16 @@ footer .footer-development ul li a{
         font-size: 1.4rem;
     }
 
+    .hero-info h1{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-info p{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
     nav ul li{
         padding: 0 1.5rem;
         line-height: 5rem;
@@ -646,6 +656,11 @@ footer .footer-development ul li a{
     .tone-2 img{
         left: -2.5rem;
         width: 100%;
+    }
+
+    .hero-info h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
     }
 
     .hero-info p{
