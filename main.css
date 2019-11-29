@@ -10,8 +10,8 @@ html{
     font-family: "Bebas Neue", "Helvetica", "Sans-serif";
     font-size: 10px;
     color: #333;
-    overflow-x: hidden;
     font-weight: 0;
+    overflow-x: hidden;
 }
 
 .container {
@@ -137,6 +137,8 @@ body{
     transform: translateY(-1rem);
 }
 
+/* Showtime */
+
 #showtime{
     width: 100%;
     height: 100%;
@@ -161,6 +163,7 @@ body{
     color: #fff;
     padding: 40px;
     transition: 0.5s ease;
+    border-radius: 30px 0 0 30px;
 
     padding: 20px;
 }
@@ -189,7 +192,7 @@ body{
     height: 100%;
     float: right;
     box-sizing: border-box;
-
+    
     width: 100%;
     height: auto;
     background: transparent;
@@ -221,6 +224,7 @@ body{
     box-sizing: border-box;
     height: 200px;
     margin: 20px 15px 0;
+    border-radius: 30px;
 
     height: auto;
 }
@@ -236,6 +240,7 @@ body{
     float: left;
     text-align: center;
     transition: 0.5s ease;
+    border-radius: 30px 0 30px 0;
 
     width: 80px;
     height: 80px;
@@ -304,6 +309,7 @@ body{
     text-transform: uppercase;
     padding: 10px 15px;
     border: 2px solid black;
+    border-radius: 10px;
     margin-top: 5px;
     font-size: 2rem;
     transition: 0.5s ease;
@@ -316,6 +322,82 @@ body{
     background-color: #ef629f;
     color: #fff;
     border-color: #ef629f;
+}
+
+/* Contact */
+
+.contact-section .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-section .flex{
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+
+    display: flex;
+}
+
+.contact-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section h1{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.c-card{
+    background-color: white;
+    padding: 0 20px;
+    margin: 10px 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.c-icon{
+    color: white;
+    font-size: 32px;
+    background-color: #ef629f;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.35s ease-in-out;
+}
+
+.c-card:hover .c-icon{
+    background-color: transparent;
+    color: #ef629f;
+    transform: scale(1.6);
+}
+
+.c-card p{
+    margin-top: 20px;
+    font-weight: 301;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+
+.c-card:hover p{
+    max-height: 40px;
+    opacity: 1;
 }
 
 /* Vlog */
@@ -353,6 +435,7 @@ body{
     align-items: center;
     text-align: center;
     transition: .5s ease-in-out;
+    border-radius: 30px;
 }
 
 #vlog .container .flex:last-child{
@@ -367,6 +450,7 @@ body{
     height: 180px;
     margin-top: 1rem;
     width: 90%;
+    border-radius: 30px;
 }
 
 #vlog .card h3 {
@@ -415,6 +499,8 @@ body{
     color: white;
     padding-top: 2rem;
 }
+
+
 /* footer */
 footer {
     /* background: #333; */
@@ -444,7 +530,7 @@ footer .footer-social-icons ul li{
     width: 50px;
     height: 50px;
     margin: 0px 10px;
-    border-radius: 100%;
+    border-radius: 15px;
     background: #ef629f;
 }
 
@@ -457,6 +543,7 @@ footer .footer-social-icons ul li a{
 footer .footer-social-icons ul li a i{
     line-height: 50px;
 }
+
 
 footer .footer-development{
     width: 100%;
