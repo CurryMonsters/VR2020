@@ -331,12 +331,12 @@ footer small {
     text-align: center;
     font-weight: 1;
     letter-spacing: 2px;
-    background-color: #2d3561;
+    background-color: white;
     padding: 2rem;
 }
 
 footer small {
-    color: white;
+    color: #ef629f;
     text-decoration: none;
 }
 
