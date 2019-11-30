@@ -151,9 +151,9 @@ input:checked ~ .details{
     padding-top: 2rem;
 }
 /* footer */
-footer {
+/* footer { */
     /* background: #333; */
-    background: #2d3561;
+    /* background: #2d3561;
     padding: 1rem 0;
 }
 
@@ -183,9 +183,9 @@ footer .footer-social-icons ul li{
     background: #ef629f;
 }
 
-footer .footer-social-icons ul li a{
+footer .footer-social-icons ul li a{ */
     /* color: #272727; */
-    color: white;
+    /* color: white;
     font-size: 25px;
     display: block;
 }
@@ -224,6 +224,115 @@ footer small {
     font-size: 16px;
     display: block;
     text-align: center;
+}
+
+footer small {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-development ul li a{
+    text-transform: underline;
+    color: white;
+} */
+
+/* foremel */
+
+footer {
+    border-top: 2px solid white;
+    background: #333;
+    background: #272727;
+    background-image: url(images/BetterGradient.png);
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer-main-div{
+    padding: 2.5rem 0 0 0;
+}
+
+
+footer .flex {
+    padding-bottom: 6rem;
+    border-bottom: 1px solid #777;
+}
+
+footer .footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+footer .footer-social-icons ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer .footer-social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    background: white;
+    font-weight: 300;
+    /* border: 1px solid white; */
+}
+
+footer .footer-social-icons ul li a{
+    color: #ef629f;
+    font-size: 25px;
+    display: block;
+}
+
+footer .footer-social-icons ul li a i{
+    line-height: 50px;
+}
+
+
+footer .footer-development{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 1.5rem;
+    color: white;
+    max-width: 600px;
+}
+
+footer .footer-development ul{
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+footer .footer-development ul li{
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 1;
+    letter-spacing: 2px;
+    margin: 30px;
+}
+
+footer .full{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+    /* background-color: rgba(0, 0, 0, 0.83); */
+    background-color: #ef629f;
+}
+
+footer small {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    font-weight: 1;
+    letter-spacing: 2px;
+    background-color: #2d3561;
+    padding: 2rem;
 }
 
 footer small {

@@ -508,8 +508,14 @@ body{
 footer {
     border-top: 2px solid white;
     /* background: #333; */
-    background: #272727;
-    padding: 5rem 0 0 0;
+    /* background: #272727; */
+    background-image: url(images/BetterGradient.png);
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer-main-div{
+    padding: 4rem 0 0 0;
 }
 
 footer .flex {
@@ -535,13 +541,13 @@ footer .footer-social-icons ul li{
     height: 50px;
     margin: 0px 10px;
     border-radius: 50%;
-    background: #ef629f;
+    background: white;
     font-weight: 300;
-    border: 1px solid white
+    /* border: 1px solid white; */
 }
 
 footer .footer-social-icons ul li a{
-    color: white;
+    color: #ef629f;
     font-size: 25px;
     display: block;
 }
@@ -555,9 +561,9 @@ footer .footer-development{
     width: 100%;
     height: auto;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color: white;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 footer .footer-development ul{
@@ -576,31 +582,24 @@ footer .footer-development ul li{
     font-weight: 1;
     letter-spacing: 2px;
     margin: 30px;
-
-    background-color: #ef629f;
-    padding: 1.2rem;
-    border-radius: 1000px;
 }
-
-/* footer .footer-development ul li span{
-    background-color: #ef629f;
-    padding: 1.4rem;
-    border-radius: 1000px;
-} */
 
 footer .full{
     padding-bottom: 1.5rem;
     border-bottom: 1px solid white;
+    /* background-color: rgba(0, 0, 0, 0.83); */
+    background-color: #2d3561;
+    background-color: #ef629f;
 }
 
 footer small {
-    /* margin-top: 3rem; */
     font-size: 16px;
     display: block;
     text-align: center;
     font-weight: 1;
     letter-spacing: 2px;
     background-color: #ef629f;
+    background-color: #2d3561;
     padding: 3rem;
 }
 
