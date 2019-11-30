@@ -430,7 +430,7 @@ body{
 #vlog .card{
     width: 350px;
     height: 280px;
-    background: #f0f0f0;
+    background-color: white;
     margin-bottom: 2rem;
     margin: 1rem 5px;
     align-items: center;
