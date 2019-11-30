@@ -2,11 +2,42 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
     font-family: "Bebas Neue", "Helvetica", "Sans-serif";
+    font-size: 10px;
+    color: #333;
+    font-weight: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+    color: white;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+    color: white; 
 }
 
 body{
@@ -73,7 +104,7 @@ input{
 .toggle{
     pointer-events: none;
     border-radius: 50%;
-    background: #fff;
+    background: white;
     transition: 0.5s;
     text-align: center;
     line-height: 50px;
@@ -118,14 +149,16 @@ input:checked ~ .details{
 }
 
 .details h2{
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     margin: 0.5rem 0;
     color: white;
+    font-weight: 1;
 }
 
 .details p {
-    font-size: 1.2rem;
+    font-size: 1.54rem;
     color: white;
+    font-weight: 0;
 }
 
 #sponsors .flex{
@@ -144,113 +177,24 @@ input:checked ~ .details{
     width: 300px;
 }
 
-#sponsors .container h2{
+#sponsors .container h1{
     text-align: center;
-    font-size: 3rem;
     color: white;
     padding-top: 2rem;
 }
+
+
 /* footer */
-/* footer { */
-    /* background: #333; */
-    /* background: #2d3561;
-    padding: 1rem 0;
-}
-
-footer .flex {
-    padding-bottom: 6rem;
-    border-bottom: 1px solid #777;
-}
-
-footer .footer-social-icons{
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-footer .footer-social-icons ul{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-footer .footer-social-icons ul li{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0px 10px;
-    border-radius: 100%;
-    background: #ef629f;
-}
-
-footer .footer-social-icons ul li a{ */
-    /* color: #272727; */
-    /* color: white;
-    font-size: 25px;
-    display: block;
-}
-
-footer .footer-social-icons ul li a i{
-    line-height: 50px;
-}
-
-footer .footer-development{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 1rem;
-    color: white;
-}
-
-footer .footer-development ul{
-    margin-right: 0;
-    padding: 0;
-    text-align: center;
-}
-
-footer .footer-development ul li{
-    margin-right: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 16px;
-}
-
-footer .full{
-    padding-bottom: 16px;
-    border-bottom: 1px solid white;
-}
-
-footer small {
-    font-size: 16px;
-    display: block;
-    text-align: center;
-}
-
-footer small {
-    color: white;
-    text-decoration: none;
-}
-
-footer .footer-development ul li a{
-    text-transform: underline;
-    color: white;
-} */
-
-/* foremel */
-
 footer {
     border-top: 2px solid white;
-    background: #333;
-    background: #272727;
     background-image: url(images/BetterGradient.png);
     background-size: cover;
     background-position: center;
 }
 
 footer .footer-main-div{
-    padding: 2.5rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
-
 
 footer .flex {
     padding-bottom: 6rem;
@@ -319,9 +263,10 @@ footer .footer-development ul li{
 }
 
 footer .full{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid white;
     /* background-color: rgba(0, 0, 0, 0.83); */
+    background-color: #2d3561;
     background-color: #ef629f;
 }
 
@@ -331,8 +276,10 @@ footer small {
     text-align: center;
     font-weight: 1;
     letter-spacing: 2px;
+    background-color: #ef629f;
+    /* background-color: #2d3561; */
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 footer small {
@@ -344,4 +291,3 @@ footer .footer-development ul li a{
     text-transform: underline;
     color: white;
 }
-
