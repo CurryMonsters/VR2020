@@ -1,12 +1,12 @@
 # mod_rewrite starts here
 
-#RewriteEngine on #important
+RewriteEngine on #important
 
-#RewriteCond %{REQUEST_FILENAME} !-d #important
+RewriteCond %{REQUEST_FILENAME} !-d #important
 
-#RewriteCond %{REQUEST_FILENAME}\.html -f #important
+RewriteCond %{REQUEST_FILENAME}\.html -f #important
 
 #here we show the page that has the .html extenstion
 
-#RewriteRule ^(.*)$ $1.html [NC,L] #important
+RewriteRule ^(.*)$ $1.html [NC,L] #important
 
