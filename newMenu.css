@@ -173,18 +173,18 @@ html.full-screen{
 /*------------------media section------------------ */
 
 @media(max-width: 600px){
-    .team-header .menu-wrapper .hamburger{
+    .menu-wrapper .hamburger{
         width: 50px;
         height: 50px;
         margin: 10px 10px;
     }
 
-    .team-header .menu-wrapper .circle-corner{
+    .menu-wrapper .circle-corner{
         width: 70px;
         height: 70px;
     }
 
-    .team-header .menu-wrapper .menu .fluid-circle {
+    .menu-wrapper .menu .fluid-circle {
         width: 70px;
         height: 70px;
     }
