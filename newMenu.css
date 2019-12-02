@@ -143,9 +143,18 @@ html{
     text-align: center;
 }
 
+.menu-wrapper .menu .nav-link{
+    background-image: url(images/BetterGradient.png);
+    background-size: cover;
+    background-position: center;
+    margin: 1rem 0;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+}
+
 .menu-wrapper .menu .nav-list .nav-link a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 5rem;
 }
 
