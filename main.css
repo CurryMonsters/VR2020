@@ -118,9 +118,9 @@ body{
 
 .btnFill{
     display: flex;
-    padding: 2rem;
+    padding: 3rem;
     color: #f7f7f6;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: 300;
     transition: all .5s;
     border-radius: 1000px;
@@ -642,8 +642,8 @@ footer .footer-development ul li a{
     }
 
     .btnFill{
-        padding: 1.5rem;
-        font-size: 1.8rem;
+        padding: 2.5rem;
+        font-size: 4rem;
     }
 }
 
@@ -676,6 +676,11 @@ footer .footer-development ul li a{
     .tone-2 img{
         left: -5rem;
     }
+
+    .btnFill{
+        padding: 2rem;
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 600px){
@@ -696,6 +701,7 @@ footer .footer-development ul li a{
 
     .btnFill{
         padding: 2rem;
+        font-size: 2rem;
     }
 }
 
@@ -711,5 +717,10 @@ footer .footer-development ul li a{
 
     .hero-info p{
         margin-bottom: 1rem;
+    }
+
+    .btnFill{
+        padding: 1.5rem;
+        font-size: 1.5rem;
     }
 }
