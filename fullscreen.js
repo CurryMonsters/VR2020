@@ -5,10 +5,15 @@ selectElement('.toggler').addEventListener('click', () =>{
 
 selectElement('.close-on-click').addEventListener('click', () =>{
     document.getElementById("tickbox").checked = false;
-    selectElement('html').classList.remove('full-screen');
+    if(selectElement('html').classList.contains('full-screen')){
+        document.getElementById("tickbox").checked = false;
+        selectElement('html').classList.remove('full-screen');
+    }
 });
 
 selectElement('.close-on-clicked').addEventListener('click', () =>{
-    document.getElementById("tickbox").checked = false;
-    selectElement('html').classList.remove('full-screen');
+    if(selectElement('html').classList.contains('full-screen')){
+        document.getElementById("tickbox").checked = false;
+        selectElement('html').classList.remove('full-screen');
+    }
 });
